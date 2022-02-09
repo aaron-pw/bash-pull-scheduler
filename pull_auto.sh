@@ -32,8 +32,10 @@ main() {
   printf "\nAll pull_sub.sh scripts executed succesfully.\n"
   timestamp
   printf "_____________\n"
-
-  sleep 15m
 }
 
-main
+while true
+do
+  main
+  sleep 15m
+done

@@ -1,9 +1,9 @@
 # bash-pull-scheduler
 Schedules pull request for all repositories in organization. Updates status via discord webhook using discord.sh
 
-Main: pull_auto.sh
+**Main:** ```pull_auto.sh```
 
-Webhook-Start: pull_starting.sh
+**Webhook-Start:** ```pull_starting.sh```
 
 **Webhook-Finish:** ```pull_finished.sh```
 
